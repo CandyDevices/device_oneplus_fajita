@@ -2,10 +2,5 @@
   {
     "repository"  : "CandyDevices/device_oneplus_sdm845-common",
     "target_path" : "device/oneplus/sdm845-common"
-  },
-  {
-    "repository"  : "boulzordev/vendor_interfaces",
-    "target_path" : "vendor/interfaces",
-    "branch"      : "pie"
   }
 ]
