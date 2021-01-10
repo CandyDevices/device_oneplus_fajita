@@ -22,8 +22,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/fajita/device.mk)
 
 # Inherit some common Candy stuff.
-$(call inherit-product, vendor/candy/config/common.mk)
-$(call inherit-product, vendor/candy/config/gsm.mk)
+$(call inherit-product, vendor/candy/config/common_full_phone.mk)
 
 PRODUCT_NAME := candy_fajita
 PRODUCT_DEVICE := fajita
